@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  margin: 15px;
+  background-color:lightblue;
+  height: 100vh;
 }
 
 .App-logo {
@@ -26,6 +28,46 @@
 
 .App-link {
   color: #61dafb;
+}
+
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  text-align: center;
+}
+
+.blue-column {
+  background-color: blue;
+  height: 100px;
+}
+
+.green-column {
+  background-color: green;
+  height: 100px;
+}
+.orange-column{
+  background-color: yellow ;
+  height: 100px;
+}
+.yellow-column{
+  background-color:pink;
+  height: 100px;
+}
+
+.items{
+  display: flex;
+  flex-direction: column;
+  word-spacing: 30px;
 }
 
 @keyframes App-logo-spin {
